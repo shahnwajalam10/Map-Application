@@ -113,8 +113,8 @@ const MapRoute = () => {
             onChange={(e) => setToInput(e.target.value)}
             className="input"
           />
-          <button onClick={handleSetRoute} className="btn">Set Route</button>
-          <button onClick={handleReset} className="btn">Reset Points</button>
+          <button onClick={handleSetRoute} className="btn1">Set Route</button>
+          <button onClick={handleReset} className="btn1">Reset Points</button>
         </div>
         {routeInfo && (
           <div className="route-info">
