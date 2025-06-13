@@ -1,4 +1,3 @@
-// server/src/index.js
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -22,7 +21,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api', protectedRoutes);
 
-// Basic route for testing
+
 app.get('/', (req, res) => {
   res.send('Map Route App API');
 });

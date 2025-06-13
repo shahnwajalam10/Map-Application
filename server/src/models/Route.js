@@ -8,7 +8,7 @@ const PointSchema = new mongoose.Schema({
     default: 'Point'
   },
   coordinates: {
-    type: [Number], // [longitude, latitude]
+    type: [Number],
     required: true
   }
 });
@@ -36,16 +36,16 @@ const RouteSchema = new mongoose.Schema({
     type: [PointSchema],
     default: []
   },
-  distance: { // in meters
+  distance: { 
     type: Number,
     required: true
   },
-  duration: { // in seconds
+  duration: { 
     type: Number,
     required: true
   },
   path: {
-    type: [[Number]], // Array of [lng, lat] pairs
+    type: [[Number]],
     required: true
   },
   createdAt: {
@@ -62,12 +62,10 @@ const RouteSchema = new mongoose.Schema({
   }
 });
 
-// Create 2dsphere index for geospatial queries
 RouteSchema.index({ startPoint: '2dsphere' });
 RouteSchema.index({ endPoint: '2dsphere' });
 RouteSchema.index({ waypoints: '2dsphere' });
 
-// Add text index for search
 RouteSchema.index({ name: 'text', tags: 'text' });
 
 const Route = mongoose.model('Route', RouteSchema);
