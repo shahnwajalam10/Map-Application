@@ -674,21 +674,26 @@ body {
     margin-bottom: 1.5rem;
   }
 
-  .btn {
-    padding: 0.875rem;
+  .btn,
+  .btn1 {
+    width: 100%;              
+    padding: 1rem;            
+    font-size: 16px;          
+    border-radius: 6px;       
+    text-align: center;
   }
-  
+
   .app-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
     padding: 1rem;
   }
-  
+
   .map-controls {
     padding: 1rem;
   }
-  
+
   .map-controls .input {
     min-width: 100%;
   }
