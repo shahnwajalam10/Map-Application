@@ -27,8 +27,8 @@ This is a full-stack React application that allows **authenticated users** to vi
 | Authentication     | JWT (JSON Web Tokens)           |
 | Map Display        | React-Leaflet                   |
 | Routing            | Leaflet Routing Machine         |
-| Styling            | TailwindCSS or Plain CSS        |
-| Deployment         | Vercel (Frontend), Render / Cyclic (Backend) |
+| Styling            | Plain CSS                       |
+| Deployment         | Vercel (Frontend), Render (Backend) |
 
 ---
 
@@ -37,8 +37,8 @@ This is a full-stack React application that allows **authenticated users** to vi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/auth-map-routing-app.git
-cd auth-map-routing-app
+https://github.com/shahnwajalam10/Map-Application.git
+cd Authenticated Map App
 ```
 
 ### 2. Setup Environment Variables
@@ -106,7 +106,6 @@ VITE_API_URL=http://localhost:5000
 |--------|--------------------|------------------------|
 | POST   | `/api/register`    | Register new user      |
 | POST   | `/api/login`       | Login and return token |
-| GET    | `/api/protected`   | Protected route check  |
 
 ---
 
@@ -146,6 +145,6 @@ Use **Render** or **Cyclic.sh** to deploy backend, and **Vercel** or **Netlify**
 
 **[shahnwaj alam]**  
 📧 your.email@example.com  
-🔗 [GitHub](https://github.com/your-username) | [LinkedIn](https://linkedin.com/in/your-profile)
+🔗 [GitHub](https://github.com/shahnwajalam10) | [LinkedIn](https://www.linkedin.com/in/shahnwaj-alam-b08415206/)
 
 ---
