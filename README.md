@@ -133,7 +133,6 @@ Use **Render** or **Cyclic.sh** to deploy backend, and **Vercel** or **Netlify**
 
 ## 🧩 Bonus Features (Optional)
 
-- 🌗 Dark/Light mode toggle
 - 🧭 Real-time location detection
 - 🎯 Marker popups with coordinates
 - 🕒 Loading spinner on map load
